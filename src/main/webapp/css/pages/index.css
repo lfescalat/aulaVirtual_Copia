@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background: url('../../img/bgLogin.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.containerMe {   
+    position:relative; 
+    width:100%;  
+    padding: 20px;
+
+}  
+.translucentMe {  
+    position:absolute;  
+    top:0; 
+    bottom:0; 
+    margin-bottom: -10px;
+    left:0;  
+    width:100%;  
+    background-color:#000;  
+    opacity: 0.6;  
+    border-radius: 10px;
+    -moz-opacity: 0.3;  
+    filter:alpha(opacity=30);  
+}  
+
+.msgTranslucent {  
+    position:absolute;  
+    top:0; 
+    bottom:0; 
+    left:0;  
+    width:100%;  
+    background-color:#FFF;  
+    opacity: 0.8;  
+    border-radius: 10px;
+    -moz-opacity: 0.6;  
+    filter:alpha(opacity=30);  
+}  
+.contentMe {   
+    position: relative;  
+    width:100%;   
+}  
+
+.centralize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input.error{
+    border: 1px solid #e77d88
+}
+
+.error {
+    padding-top: 3px;
+    color: #e77d88;
+    font-size: 12px
+}
+
+@media screen and (min-width: 384px){
+    .panel-zoom{
+        zoom: 120%;
+    }
+}
+
+@media screen and (max-width: 383px){
+    .panel-zoom{
+        zoom: 100%;
+    }
+}
+
+@media screen and (min-width: 384px){
+    .footerText{
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width: 383px){
+    .footerText{
+        font-size: 12px
+    }
+}
